@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.img-logo{
+    width: 25rem;
+
+}
+.paddingContainer{
+    padding: 5em;
+}
+.paddingContainerAll{
+    padding: 6rem;
+}
+
+.marginHome{
+    margin: 3rem auto;
+}
+.footer{
+    margin-top: 3rem;
+    padding: 6rem;
+    
+}
+.marginCards{
+    margin:5rem auto;
+}
+#imgFondo{
+    background-image: url("../img/geometri.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1.5rem auto;
+    padding: 7rem  ;
+}
+
+@media screen and (max-width: 720px) {
+    #imgFondo{
+        background-image: url("");
+        margin: 0;
+        padding: 0;
+    }
+    .paddingContainerAll{
+        padding: 2rem;
+    }
+}
