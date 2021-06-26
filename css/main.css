@@ -1,6 +1,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.opacidad-50{
+    opacity: 0.5;
+}
+.opacidad-off{
+    opacity: 0;
+}
 .img-logo{
     width: 25rem;
 
@@ -11,7 +17,9 @@ body{
 .paddingContainerAll{
     padding: 6rem;
 }
-
+.marginVertical{
+    margin: 5rem auto;
+}
 .marginHome{
     margin: 3rem auto;
 }
@@ -30,7 +38,15 @@ body{
     margin: 1.5rem auto;
     padding: 7rem  ;
 }
-
+#ejemplo1{
+    background: url("../img/img_ejemplos/pizza-3007395_1280.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 1.5rem 0rem;
+    padding: 9rem 0rem;
+}
 @media screen and (max-width: 720px) {
     #imgFondo{
         background-image: url("");
@@ -39,5 +55,12 @@ body{
     }
     .paddingContainerAll{
         padding: 2rem;
+    }
+    #ejemplo1{
+        background: url("../img/img_ejemplos/pizza-3007395_1280.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
