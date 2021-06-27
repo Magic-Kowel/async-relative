@@ -11,6 +11,7 @@ body{
     width: 25rem;
 
 }
+
 .paddingContainer{
     padding: 5em;
 }
@@ -54,7 +55,7 @@ body{
         padding: 0;
     }
     .paddingContainerAll{
-        padding: 2rem;
+        padding: 1rem;
     }
     #ejemplo1{
         background: url("../img/img_ejemplos/pizza-3007395_1280.jpg") no-repeat center center fixed;
