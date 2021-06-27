@@ -50,6 +50,15 @@ body{
     margin: 1.5rem 0rem;
     padding: 9rem 1rem;
 }
+#ejemplo2{
+    background: url("../img/img_ejemplos/laptop-614213_1280.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 1.5rem 0rem;
+    padding: 9rem 1rem;
+}
 @media screen and (max-width: 720px) {
     #imgFondo{
         background-image: url("");
