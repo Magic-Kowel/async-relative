@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info   ">
+    <nav class="sticky-top  border-bottom border-white  navbar navbar-expand-lg navbar-light bg-info   ">
         <div class="container-fluid">
             <a class="navbar-brand text-dark " href="#">Async Relative</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,10 +40,7 @@
             <div class="collapse  navbar-collapse  " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto  justify-content-center text-center mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes somos</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#servicios">Servicios</a>
@@ -55,7 +52,7 @@
             </div>
         </div>
     </nav>
-    <main class="container-fluid  marginHome">
+    <main id="home" class="container-fluid  marginHome">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-lg-6">
                 <figure class="text-center " data-aos="fade-up">
@@ -63,8 +60,8 @@
                 </figure>
             </div>
             <div class="col-md-6 col-sm-12 col-lg-6 bg-info rounded-3" data-aos="fade-up">
-                <div class="  paddingContainerAll " >
-                        <h5 class="h1 text-center fw-bolder">TU NEGOCIO RN LA RED CON TU PROPIA PAGINA WEB</h5>
+                <div class="  paddingContainerAll  " >
+                        <h5 class="h1 text-center fw-bolder ">TU NEGOCIO RN LA RED CON TU PROPIA PAGINA WEB</h5>
                         <p class="lh-1 lh-sm text-center   text-break">
                             Hola, tu negocio es espectacular y una página
                             web o ayudaría a publicitar tu negocio y un
@@ -79,7 +76,7 @@
     <section id="ejemplo1" class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="text-center fw-bolder bg-white opacidad-50  text-black">
+                <div class="text-center fw-bolder bg-white opacidad-50  text-black shadow-lg">
                     <h2 class="display-3 shadow-lg " style=" opacity: 1 !important;">PAGINA WEB PARA TU NEGOCIO</h2>
                 </div>
             </div>
@@ -105,9 +102,9 @@
         </div>
     </section>
     <div class=" container container-sm container-md container-lg">
-        <section class="row row-cols-1 row-cols-md-3 g-4 marginVertical">
+        <section id="servicios" class="row row-cols-1 row-cols-md-3 g-4 marginVertical">
             <div class="col">
-                <div class="card h-100" data-aos="fade-up">
+                <div class="card h-100 shadow-lg" data-aos="fade-up">
                     <img src="./img/img_card/responsive-design.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center text-break">Sitios responsivos </h5>
@@ -116,7 +113,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100" data-aos="fade-up">
+                <div class="card h-100 shadow-lg" data-aos="fade-up">
                     <img src="./img/img_card/Cloud-Hosting.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title  text-center text-break">Hosting</h5>
@@ -128,7 +125,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100" data-aos="fade-up">
+                <div class="card h-100 shadow-lg" data-aos="fade-up">
                     <img src="./img/img_card/page-beautifull.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center text-break">Sitios web hermosos</h5>
@@ -139,9 +136,9 @@
                 </div>
             </div>
         </section>
-        <section class="row row-cols-1 row-cols-md-2 g-4">
+        <section id="contacto"  class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
-                <div class="card h-100" data-aos="fade-up">
+                <div class="card h-100 shadow-lg" data-aos="fade-up">
                     <i class="fas fa-phone-alt fa-4x card-img-top text-info text-center "></i>
                     <div class="card-body  text-center ">
                         <h5 class="card-title">Telefonos</h5>
@@ -151,7 +148,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100" data-aos="fade-up">
+                <div class="card h-100 shadow-lg" data-aos="fade-up">
                     <i class="fas fa-map-marker-alt fa-4x card-img-top text-info text-center "></i>
                     <div class="card-body text-center">
                         <h5 class="card-title">Ubicacion</h5>
