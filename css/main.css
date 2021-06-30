@@ -17,6 +17,9 @@ body{
 .paddingContainer{
     padding: 5em;
 }
+.sectionMargin{
+    margin-block: 10rem auto;
+}
 .paddingContainerAll{
     padding: 6rem;
 }
@@ -30,6 +33,9 @@ body{
     margin-top: 3rem;
     padding: 6rem;
     
+}
+.radiusCard{
+    border-radius: 5%;
 }
 .marginCards{
     margin:5rem auto;
